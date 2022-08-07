@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/24be799a15.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">   
+        <div class="container">
+            <nav>
+                <img src="logoimage.png" class="logo">
+                <!-- <h1 style="font-size:30px;color:red">Sandy</h1> -->
+                <ul id="sidemenu">
+                    <li><a href="#header">Home </a></li>
+                    <li><a href="#about">About </a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <i class="fa-regular fa-square-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer / Data Scientist</p>
+                <h1>Hii, I'm <span>Santosh</span><br> from Bhiwadi,India</h1>
+                
+            </div>
+        </div>
+    </div>
+
+   <!-- here we add about -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="http://drive.google.com/uc?export=view&id=17avM1QNovaKNnNKPGb7f2qd7hHq1alRV" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p class="sandy">I am Santosh, My nikename is Sandy.<br> I am an Artifical Intelligence and Data Science Enginerring Student at MIRTC Alwar ,Rajasthan <br>
+                    Here you can check my Acadmic score  <br> along with my skills & and my experience </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onClick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onClick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onClick="opentab('education')">Education</p>
+                    <p class="tab-links" onClick="opentab('My_Project')">My Project</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI / UX</span><br>Designing Web/App interface</li>
+                        <li><span>Web Development</span><br>Website / Web App development</li>
+                        <li><span>Python programming language</span><br>Python and it's Application</li>
+                        <li><span>Data Analysis </span><br>Data Analysis</li>
+                        <li><span>Data Base & Management</span><br>Knowledge of Mysql ,Sql ,PlSql</li>
+                        <li><span>Data Scientist </span><br>Data Scientist</li>
+                        <li><span>C / C++ programming language</span><br>Good Knowledge about these programming language</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2021-2022</span><br>UI/UX Design Training at ET Institute</li>
+                        <li><span>2019-2021</span><br>Team lead at Starapp</li>
+                        <li><span>2017-2019</span><br>UI/UX Design Executive at Coin Digital Ltd.</li>
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents"id=education>
+                    <ul>
+                        <li><span>2020-2024</span><br>purshing Artifical Intelligence and Data Science Enginerring</li>
+                        <li><span>2019</span><br>Passed 12th RBSE Board exam with 88.80% (PCM)</li>
+                        <li><span>2017</span><br>Passed 10th RBSE Board exam with 90.50%</li>
+                        <li><span>2018</span><br>Passed 8th RBSE Board exam with 95%</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="My_Project">
+                    <ul>
+                        <li><span>Virtual jarvis assistent </span><br>I have created a virtual voice assistant.<br>which can perform task like alexa and google assistent</li>
+                        <li><span>Hospital Management System programe </span><br>I have created a Hospital Management based computer program. <br>which have features to maintain records of hospital</li>
+                        <li><span>Space shutle fighting game </span><br>This is a space shuttle fighting game. this is very easy to play and you will enjoy it while playing</li>  
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- ------------Services------------ -->
+
+<div id="services">
+    <div class="container">
+        <h1 class="subtitle">My Services</h1>
+       <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+
+                <h2>Web Design</h2>
+                <p>I am a Website Developer,I can do front-end and backend development.<br>i am very fimilar with BootStrap
+                     and Wordpress,if you want to design your own website for any purpose, then you are at right place. you can fill the below form for contact me.</p>
+                 <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+
+                <h2>UI/UX</h2>
+                <p>I am very fimilar with UI / UX , i have created many attractive UI design for mobile application and website.
+
+                </p>
+                 <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fab fa-app-store"></i>
+
+                <h2>App</h2>
+                <p>I am an App Developer, i have a good Knowledge of flutter and android Studio.
+                    i have complete many project on application development.</p>
+                 <a href="#">Learn more</a>
+            </div>
+       </div> 
+
+    </div>
+</div>
+
+
+<!-- -----------Portfolio-------------- -->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="subtitle">My Work</h1>
+
+        <div class="worklist">
+            <div class="work">
+                <img src="laptop.jpg">
+                <div class="layer">
+                    <h3>Social Media</h3>
+                    <p>Lorem ipsum dolor,  facere placeat tenetur esse ab autem architecto, accusantium eius dignissimos excepturi cum, deleniti, ipsum magni aspernatur vitae 
+                       accusamus excepturi aspernatur</p>
+                        
+                    <a href="#"> <i class="fas fa-code"></i></i></a>    
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="laptop1.jpg">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>Lorem ipsum Omnis facere placeat tenetur esse ab autem architecto, accusantium eius dignissimos excepturi cum, deleniti, ipsum magni aspernatur vitae 
+                       accusamus excepturi aspernatur</p>
+                        
+                    <a href="#"> <i class="fas fa-code"></i></a>    
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="laptop2.jpg">
+                <div class="layer">
+                    <h3>App Development</h3>
+                    <p>Lorem ipsum dolor,placeat tenetur esse ab autem architecto, accusantium eius dignissimos excepturi cum, deleniti, ipsum magni aspernatur vitae 
+                       accusamus excepturi aspernatur</p>
+                        
+                    <a href="#"> <i class="fas fa-code"></i></a>    
+                </div>
+            </div>
+          
+        </div>
+        <a href="#" class="btn">See more</a> 
+       
+    </div>
+    
+</div>
+
+
+
+<!-- -----------------Contact------------------- -->
+
+
+<div id="Contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="subtitle">Contact Me </h1>
+                <p><i class="fa-solid fa-paper-plane"></i>  Santoshsingh41851@gmail.com</p>
+                <p ><i class="fa-solid fa-phone"></i> 8440934569</p>
+            <div class="social-icon">
+                <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://twitter.com/Santosh8440"><i class="fa-brands fa-twitter-square"></i></a>
+                <a href="https://www.instagram.com/__mr._singh__14/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/santosh-singh-4b0432203"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+
+             <!-- for download a cv file  -->
+                <a href="/image/my resume.pdf" download class="btn btn2">Download CV</a>
+
+
+
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Enter Your Name" required>
+                    <input type="email" name="Email" placeholder="Enter Your Email" required>
+                    <textarea name="Message" rows="10" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Sandy <i class="fa-solid fa-heart"></i> . Made for my portfolio</p>
+    </div>
+
+</div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname)
+        {
+            for(tablink of tablinks)
+            {
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents)
+            {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbw25FVxjweAMBX7Fow7nI5xFZXgDGTFsGNCgP6s-sFWK98IhFmFcK4cEGdogd2zS5HiMw/exec'
+    const form = document.forms['submit-to-google-sheet']
+
+    const msg=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message Sent Successfully"
+            setTimeout(function()
+            {
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
