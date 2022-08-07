@@ -392,9 +392,9 @@ nav .fa-solid.fa-bars{
    }
 
    .header-text{
-      margin-top: 110%;
-      font-size: 18px;
-      font-weight: 400;
+      margin-top: 100%;
+      font-size: 14px;
+      font-weight: 300;
    }
    .header-text h1{
       font-size: 30px;
