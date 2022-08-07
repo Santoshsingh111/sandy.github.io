@@ -387,12 +387,13 @@ nav .fa-solid.fa-bars{
 @media only screen and (max-width:600px){
 
    #header{
-      background-image:url('/image/phonebackgroung.webp');
+      background-image:url('phonebackground.png');
    }
 
    .header-text{
-      margin-top: 100%;
-      font-size: 16px;
+      margin-top: 170%;
+      font-size: 24px;
+      font-weight: 500;
    }
    .header-text h1{
       font-size: 30px;
